@@ -6,10 +6,14 @@ console.log(API_URL);
 
 async function loadDashboard() {
   try {
-    const response = await fetch(
-      API_URL + "?action=dashboard"
-    );
-
+    
+const response = await fetch(
+  API_URL + "?action=dashboard",
+  {
+    method: "GET",
+    redirect: "follow"
+  }
+);
     const data = await response.json();
 
     document.getElementById("totalSales").innerText =
