@@ -1,3 +1,6 @@
+console.log("APP LOADED");
+console.log(API_URL);
+
 const API_URL =
 "https://script.google.com/macros/s/AKfycbz4JlgvFAPwvjXq_NMZ6Qqrz47RppmnQndXEe8FFrWb1HfFLWWPT0VHXbQF7tJ79Qr7/exec";
 
